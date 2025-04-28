@@ -7,7 +7,7 @@ function verificarLogin() {
         mensagemDiv.textContent = "Preencha todos os campos.";
         mensagemDiv.className = "mensagem erro";
     } else if (senha === "12345") {
-        mensagemDiv.textContent = `Bem-vindo, ${usuario}!`;
+        mensagemDiv.textContent = `Bem-vindo, ${usuario}`;
         mensagemDiv.className = "mensagem sucesso";
     } else {
         mensagemDiv.textContent = "Senha incorreta. Tente novamente.";
